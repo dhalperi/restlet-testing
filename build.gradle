@@ -1,0 +1,69 @@
+/* This project uses Java and Eclipse. */
+import org.gradle.plugins.ide.eclipse.model.SourceFolder
+apply plugin: "java"
+apply plugin: "eclipse"
+
+/* We use Java 1.7 */
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+/* Tell gradle where the source code is located. */
+sourceSets {
+  /* Code for main */
+  main {
+    java.srcDir 'src'
+    output.classesDir = 'build/main'
+  }
+}
+
+
+/* Build the Eclipse .classpath file first, because if Gradle's build fails
+ * we'll want to use Eclipse to debug it. */
+compileJava.dependsOn eclipseClasspath
+tasks.eclipseClasspath.dependsOn cleanEclipseClasspath
+
+/*
+ * List the compile and runtime dependencies of all the tests.
+ * Note that "group:name:version" dependencies will be downloaded from Maven.
+ */
+
+/* Where we will fetch external JAR files from. */
+repositories {
+  mavenCentral() /* The standard Java Maven repository. */
+  maven { url "http://maven.restlet.org" }
+}
+
+/* List constants that we use in multiple places. */
+ext.restletVersion = "2.1.1"
+
+dependencies {
+  compile "org.restlet.jee:org.restlet:${restletVersion}"
+  compile "org.restlet.jee:org.restlet.ext.jackson:${restletVersion}"
+  compile "org.restlet.jee:org.restlet.ext.jaxrs:${restletVersion}"
+}
+
+/* The eclipseClasspath task will build a local Eclipse .classpath file. */
+eclipse.classpath {
+  /* Ensure Eclipse compiled output appears in build directory. */
+  defaultOutputDir = file('build/main')
+
+  /* We don't need to download source code. Why not? With sources, it's much
+   * more convenient in debugging.
+   */
+  downloadSources = true
+  downloadJavadoc = true
+
+  file {
+
+    /* Separate output folder for each src folders*/
+    whenMerged {
+      cp ->
+      cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("src") }*.output = "build/main"
+      cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("protobuf") }*.output = "build/main"
+      cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("third-party-src") }*.output = "build/main"
+      cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("test") }*.output = "build/test"
+      cp.entries.findAll { it instanceof SourceFolder && it.path.startsWith("speedtest") }*.output = "build/speedtest"
+    }
+
+  }
+}
