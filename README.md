@@ -28,7 +28,7 @@ Note that this execution took about 0.031s total to run. In the RESTlet logs, th
 ```
 INFO: 2013-02-15  14:54:01	0:0:0:0:0:0:0:1	-	-	8080	POST	/echo	-	200	1024	1024	3	http://localhost:8080	curl/7.29.0	-
 ```
-showing that it took about 3 us (I think the units are us) to process.
+showing that it took about 3 ms to process.
 
 Now try with 1025 bytes:
 
@@ -50,3 +50,4 @@ It took about 1.024s total! The logs say:
 ```
 INFO: 2013-02-15  14:55:51	0:0:0:0:0:0:0:1	-	-	8080	POST	/echo	-	200	1025	1025	1001	http://localhost:8080	curl/7.29.0	-
 ```
+with 1001 ms report processing time.
