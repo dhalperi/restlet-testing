@@ -3,9 +3,10 @@
 	<classpathentry kind="output" path="build/main"/>
 	<classpathentry output="build/main" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet/2.1.2/source/80b2105c4bc2b9932befee09a77f481165b0bd4c/org.restlet-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet/2.1.2/jar/3583faec5826127361ebab9c67fac21e26925154/org.restlet-2.1.2.jar" exported="true"/>
-	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet.ext.jackson/2.1.2/source/edb03464e7fcd90735d91daeab66fb970d105deb/org.restlet.ext.jackson-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet.ext.jackson/2.1.2/jar/703c507c60d8bfd5879488741ef8e115f0ecd283/org.restlet.ext.jackson-2.1.2.jar" exported="true"/>
-	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet.ext.jaxrs/2.1.2/source/64c76753469f74b1b254584460fff07760fdf548/org.restlet.ext.jaxrs-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet.ext.jaxrs/2.1.2/jar/f2b530d19dd4b46e6b6627a38576420bf820333d/org.restlet.ext.jaxrs-2.1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet/2.1.2/source/a839f564756d2598ea7bcef76ae374ebb46e3635/org.restlet-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet/2.1.2/jar/230fd58c7d77de2a50f61dbaf9e024588af5567b/org.restlet-2.1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jackson/2.1.2/source/72cb469ee7f77d0660490a8ef5725b7db0064937/org.restlet.ext.jackson-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jackson/2.1.2/jar/4075f8ba369162fa071c39f657be6fe03a657020/org.restlet.ext.jackson-2.1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jaxrs/2.1.2/source/e9bc1a93fe332092cc4f47c7c5c6a1c01486bde6/org.restlet.ext.jaxrs-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jaxrs/2.1.2/jar/eba79cc3fd4ebc8717a890c9ee6e83ed8e9948da/org.restlet.ext.jaxrs-2.1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jetty/2.1.2/source/a89b773d74ea1aa580248ff59bd370710b436d86/org.restlet.ext.jetty-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.jetty/2.1.2/jar/11482acd38bc52bd5d7970ffcf858ea8bd08b063/org.restlet.ext.jetty-2.1.2.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-core-asl/1.9.8/source/8679e90e6a723e5c953819c45e60cdbba277acec/jackson-core-asl-1.9.8-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-core-asl/1.9.8/jar/e04e8b2defcbf2e365b75498a36475f2cddc44ba/jackson-core-asl-1.9.8.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.8/source/4f5184effffd07611ea2d22cc17d161fb87bcfcf/jackson-mapper-asl-1.9.8-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.8/jar/d3443728ad3b01dd94838a6e79964b1c7ea89c9d/jackson-mapper-asl-1.9.8.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/javax.activation/activation/1.1.1/source/159e45688875fdabff19c9ceb7335aefe4df8339/activation-1.1.1-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/javax.activation/activation/1.1.1/jar/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar" exported="true"/>
@@ -23,6 +24,47 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/javax.ws.rs/jsr311-api/1.0/javadoc/fc1b8999cec2b7cf4d193d76c2f458a3b512f1b9/jsr311-api-1.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jee/org.restlet.lib.org.json/2.0/jar/aa0e3bef5e0c3660a3e69529a3d8b71b4ecd291a/org.restlet.lib.org.json-2.0.jar" exported="true"/>
+	<classpathentry kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.lib.org.json/2.0/jar/aa0e3bef5e0c3660a3e69529a3d8b71b4ecd291a/org.restlet.lib.org.json-2.0.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/javax.servlet/servlet-api/2.5/source/21599814ad9a605b86f3e6381571beccd861a32/servlet-api-2.5-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/javax.servlet/servlet-api/2.5/jar/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-continuation/7.6.5.v20120716/source/e4a3215b0fbaf004faa0e18d9abf1297e5e94165/jetty-continuation-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-continuation/7.6.5.v20120716/jar/8f46738873f2f53924138ad54d27e72de2d76bca/jetty-continuation-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-continuation/7.6.5.v20120716/javadoc/b337552740f1d71f3f1e322c9aa7f0b565eb340b/jetty-continuation-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-util/7.6.5.v20120716/source/af4f3d343828f340e79f6232f7256558cf4b077b/jetty-util-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-util/7.6.5.v20120716/jar/d56a10ba14f9bee77958ca89e5355be08c085911/jetty-util-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-util/7.6.5.v20120716/javadoc/aa13aff2e354903e8e0cec4b7f2f4419a11da729/jetty-util-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-io/7.6.5.v20120716/source/161c3f3aa4ce5c3662f73f04cf0194d121b3256/jetty-io-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-io/7.6.5.v20120716/jar/f793a8c439d73e4770f451d7fecc5d48265138e8/jetty-io-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-io/7.6.5.v20120716/javadoc/4febf0c5a77172925c12f19a318bcc93d3120469/jetty-io-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-http/7.6.5.v20120716/source/85301820c01c929d0cb53432f1bda27f781372b5/jetty-http-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-http/7.6.5.v20120716/jar/e303fe8377843ca9fc5b423155a014e0e373f6df/jetty-http-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-http/7.6.5.v20120716/javadoc/f1d5b4a5c35a1c56698833994fd2c0c6890ed421/jetty-http-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty.orbit/javax.servlet/2.5.0.v201103041518/source/b867af940f63a5a7c26e8ad7b770fc9e5992a3dd/javax.servlet-2.5.0.v201103041518-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty.orbit/javax.servlet/2.5.0.v201103041518/orbit/9c16011c06bc6fe5e9dba080fcb40ddb4b75dc85/javax.servlet-2.5.0.v201103041518.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty.orbit/javax.servlet/2.5.0.v201103041518/javadoc/b950aebfd8253d2182ddb0072f9fb25e062878ad/javax.servlet-2.5.0.v201103041518-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-server/7.6.5.v20120716/source/622fb480a808c8e5237d1b0b8f8517d0b8070cad/jetty-server-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-server/7.6.5.v20120716/jar/7e2c3c1be34e89f25604f68e00aa8a92b3179808/jetty-server-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-server/7.6.5.v20120716/javadoc/f4aea0985c7a50a18f7d23c36d2a26624c4d10d0/jetty-server-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-ajp/7.6.5.v20120716/source/ebb9a2f2f8960e5565e8a6bda950e0934772507f/jetty-ajp-7.6.5.v20120716-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-ajp/7.6.5.v20120716/jar/74fb9aae97e2d189d1c4071da51101b293034e80/jetty-ajp-7.6.5.v20120716.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.eclipse.jetty/jetty-ajp/7.6.5.v20120716/javadoc/f35f9f2f7317b9de9ea692fe47896f350714baf9/jetty-ajp-7.6.5.v20120716-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.jsslutils/jsslutils/1.0.5/source/84599cc4ebac9ca0aca49d22cf8364c74c905459/jsslutils-1.0.5-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.jsslutils/jsslutils/1.0.5/bundle/ddcf2646f6ecc5692c421cbfff5bd591e6c50327/jsslutils-1.0.5.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.jsslutils/jsslutils/1.0.5/javadoc/2462d46a8c121c2badc7cdd34fed690a7ea598fa/jsslutils-1.0.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.ssl/2.1.2/source/79e5bbcec9dae1dc8347adf1c5af4cd8e9a44757/org.restlet.ext.ssl-2.1.2-sources.jar" kind="lib" path="/Users/dhalperi/.gradle/caches/artifacts-23/filestore/org.restlet.jse/org.restlet.ext.ssl/2.1.2/jar/3eca874eb985396d955ace9852abec580a6c73c7/org.restlet.ext.ssl-2.1.2.jar" exported="true"/>
 </classpath>

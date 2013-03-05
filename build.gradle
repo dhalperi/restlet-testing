@@ -37,9 +37,10 @@ repositories {
 ext.restletVersion = "2.1.2"
 
 dependencies {
-  compile "org.restlet.jee:org.restlet:${restletVersion}"
-  compile "org.restlet.jee:org.restlet.ext.jackson:${restletVersion}"
-  compile "org.restlet.jee:org.restlet.ext.jaxrs:${restletVersion}"
+  compile "org.restlet.jse:org.restlet:${restletVersion}"
+  compile "org.restlet.jse:org.restlet.ext.jackson:${restletVersion}"
+  compile "org.restlet.jse:org.restlet.ext.jaxrs:${restletVersion}"
+  compile "org.restlet.jse:org.restlet.ext.jetty:${restletVersion}"
 }
 
 /* The eclipseClasspath task will build a local Eclipse .classpath file. */
