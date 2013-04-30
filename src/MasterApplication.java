@@ -1,4 +1,3 @@
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,6 +13,8 @@ public class MasterApplication extends Application {
   public final Set<Class<?>> getClasses() {
     final Set<Class<?>> rrcs = new HashSet<Class<?>>();
     rrcs.add(EchoResource.class);
+    rrcs.add(EchoObjectResource.class);
+    rrcs.add(EchoBytesResource.class);
     return rrcs;
   }
 }
